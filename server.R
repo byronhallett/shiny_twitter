@@ -47,11 +47,11 @@ shinyServer(function(input, output) {
     FillUserTable()
   })
 
-  observeEvent(input$fetchData, {
-    if (input$twitterHandle != "" && !is.null(userFromHandle$followersCount)) {
-      
-    }
-  })
+#   observeEvent(input$fetchData, {
+#     if (input$twitterHandle != "" && !is.null(userFromHandle$followersCount)) {
+#       
+#     }
+#   })
   FetchFollowers <- function () {
     if (input$maxFollowers == 0) {
       return (userFromHandle$getFollowers())
