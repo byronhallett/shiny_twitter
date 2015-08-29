@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shinyapps)\nshinyapps::deployApp('/Users/byron/Dropbox/Fun/r_projects/shiny_twitter')\n",
+    "created" : 1440856651088.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3525545577",
+    "id" : "BA10618E",
+    "lastKnownWriteTime" : 1440844583,
+    "path" : "~/Dropbox/Fun/r_projects/shiny_twitter/push_to_server.R",
+    "project_path" : "push_to_server.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

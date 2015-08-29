@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n# \n# http://www.rstudio.com/shiny/\n#\n\nlibrary(shiny)\n\nshinyUI(pageWithSidebar(\n  \n  # Application title\n  headerPanel(\"Twitter Followers\"),\n  \n  # Sidebar with a input for user input\n  sidebarPanel(\n    textInput('twitterHandle',\"Twitter Handle\",\"\"),\n    sliderInput('maxFollowers',\"Followers Download Limit\",min = 0,max = 5000,value = 5000),\n    downloadButton('downloadData',\"Download Followers Data\")\n  ),\n  \n  mainPanel(\n    tableOutput(\"twitTable\")\n  )\n))\n",
+    "created" : 1440856123722.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1467610202",
+    "id" : "3F60F803",
+    "lastKnownWriteTime" : 1440857103,
+    "path" : "~/Dropbox/Fun/r_projects/shiny_twitter/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
